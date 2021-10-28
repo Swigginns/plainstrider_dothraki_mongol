@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "swig:drsand_speed",
+        "swig:dstone_slowness",
+        "swig:dcolddot",
+        "swig:psmounted_strength",
+        "swig:psspawn_horse",
+        "swig:pssaddle_maker",
+        "swig:psmounted_speed",
+        "swig:psmounted_jump",
+        "swig:psmounted_health",
+        "swig:psmounted_regen"
+    ],
+    "icon": "minecraft:leather_horse_armor",
+    "order": 10,
+    "impact": 2,
+    "name": "Dothraki",
+    "description": "Born and raised in the desert. Your people have a sacred bond with horses going back before memory."
+}

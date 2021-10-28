@@ -1,0 +1,25 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:health_boost",
+            "amplifier": 4,
+            "duration": 12000
+        }
+    },
+    "cooldown": 12000,
+    "hud_render": {
+        "should_render": false,
+        "bar_index": 5
+            },
+        "target_condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:horse"
+        },
+    "hidden": true
+}
+
+
+
+

@@ -1,0 +1,25 @@
+{
+    "type": "origins:recipe",
+    "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "id": "origins:saddle",
+    "pattern": [
+        "@#@",
+        "###",
+        "@#@"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather"
+        },
+        "@": {
+            "item": "minecraft:string"
+        }
+    },
+    "result": {
+        "item": "minecraft:saddle"
+    }
+},
+    "name": "Saddle Maker",
+    "description": "Techniques passed down through generations allow you to craft saddles."
+}

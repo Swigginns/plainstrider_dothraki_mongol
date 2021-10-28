@@ -1,0 +1,42 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": -0.03
+    },
+    "tick_rate": 20,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+        "type": "origins:on_block",
+        "block_condition": {
+          "type": "origins:in_tag",
+          "tag": "minecraft:base_stone_overworld"
+        }
+        },
+        {
+            "type": "origins:on_block",
+            "block_condition": {
+              "type": "origins:in_tag",
+              "tag": "minecraft:snow"
+            }   
+        },
+        {
+            "type": "origins:on_block",
+            "block_condition": {
+              "type": "origins:in_tag",
+              "tag": "minecraft:ice"
+            }   
+        }
+    ]
+},
+  "name": "Unfamiliar Footing",
+  "description": "A lifetime of walking on sand has made you accustomed to it. Any stone, snow or ice feels so foreign that you move slower."
+  }
+
+
+
+
+

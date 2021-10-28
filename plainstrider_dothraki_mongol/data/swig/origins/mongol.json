@@ -1,0 +1,20 @@
+{
+    "powers": [
+        "swig:mice_speed",
+        "swig:mstone_slowness",
+        "swig:mheatdot",
+        "swig:mheatdotn",
+        "swig:psmounted_strength",
+        "swig:psspawn_horse",
+        "swig:pssaddle_maker",
+        "swig:psmounted_speed",
+        "swig:psmounted_jump",
+        "swig:psmounted_health",
+        "swig:psmounted_regen"
+    ],
+    "icon": "minecraft:leather_horse_armor",
+    "order": 10,
+    "impact": 2,
+    "name": "Mongol",
+    "description": "Born and raised in the tundra. Your people have a sacred bond with horses going back before memory."
+}

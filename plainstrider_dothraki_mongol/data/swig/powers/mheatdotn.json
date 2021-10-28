@@ -1,0 +1,36 @@
+{
+    "type": "origins:damage_over_time",
+    "interval": 20,
+    "onset_delay": 600,
+    "damage": 1,
+    "damage_easy": 1,
+    "damage_source": {
+        "name": "inFire",
+        "unblockable": true,
+        "bypasses_armor": true
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:category",
+                    "category": "nether"
+                }
+            },
+            {
+                "type": "origins:equipped_item",
+                "equipment_slot": "offhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                    "item": "minecraft:blue_ice"
+                    },
+                    "inverted": true
+                }
+            }
+        ]
+    },
+    "hidden": true
+}

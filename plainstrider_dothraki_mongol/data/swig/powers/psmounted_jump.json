@@ -1,0 +1,36 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+        "type": "origins:grant_power",
+        "power": "swig:pshorse_jump",
+        "source": "swig:pshorse_jump"
+    },
+    {
+        "type": "origins:delay",
+        "ticks": 12000,
+        "action": {
+            "type": "origins:revoke_power",
+            "power": "swig:pshorse_jump",
+            "source": "swig:pshorse_jump"
+        }
+    }
+]
+    },
+    "cooldown": 12001,
+    "hud_render": {
+        "should_render": false,
+        "bar_index": 8
+            },
+            "target_condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:horse"
+            },
+            "hidden": true
+}
+
+
+
+

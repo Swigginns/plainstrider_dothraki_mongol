@@ -1,0 +1,9 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Horse jump increase",
+        "attribute": "minecraft:horse.jump_strength",
+        "value": 0.2,
+        "operation": "addition"
+    }
+}

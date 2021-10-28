@@ -1,0 +1,22 @@
+{
+    "type": "origins:damage_over_time",
+    "interval": 20,
+    "onset_delay": 600,
+    "damage": 1,
+    "damage_easy": 1,
+    "damage_source": {
+        "name": "freeze",
+        "unblockable": true,
+        "bypasses_armor": true
+    },
+    "condition": {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:temperature",
+                    "comparison": "<",
+                    "compare_to": 0.1
+                }
+            },
+    "name": "Over Exposure",
+    "description": "In very cold biomes you will start freezing after a short while. (Thirty second grace period.)"
+}

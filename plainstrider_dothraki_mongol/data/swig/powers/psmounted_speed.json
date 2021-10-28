@@ -1,0 +1,26 @@
+{
+    "type": "origins:target_action_on_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "amplifier": 1,
+            "duration": 12000
+        }
+    },
+    "cooldown": 12000,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 8
+            },
+            "target_condition": {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:horse"
+            },
+    "name": "Giddyup!",
+    "description": "Your horse gains speed, more health and can jump a bit higher for ten minutes after you slap it. (SpeedII and +10 hearts)"
+}
+
+
+
+

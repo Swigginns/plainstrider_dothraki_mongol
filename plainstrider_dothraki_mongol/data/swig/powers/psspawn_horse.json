@@ -1,0 +1,23 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+     "type": "origins:spawn_entity",
+     "entity_type": "minecraft:horse"
+    },
+      "cooldown": 72000,
+      "hud_render": {
+          "should_render": true,
+          "bar_index": 3
+      },
+      "key": {
+        "key": "key.origins.secondary_active"
+    },
+      "condition": {
+        "type": "origins:advancement",
+        "advancement": "minecraft:husbandry/tame_an_animal"
+    },
+      "name": "Horse Whisperer",
+      "description": "Your familiarity with horses allows you to spontaneously find one every hour. (Secondary)"
+}
+
+

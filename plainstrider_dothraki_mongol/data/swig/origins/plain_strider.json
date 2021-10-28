@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "swig:psgrass_speed",
+        "swig:psstone_slowness",
+        "swig:psmounted_strength",
+        "swig:psspawn_horse",
+        "swig:pssaddle_maker",
+        "swig:psmounted_speed",
+        "swig:psmounted_jump",
+        "swig:psmounted_health",
+        "swig:psmounted_regen"
+    ],
+    "icon": "minecraft:leather_horse_armor",
+    "order": 10,
+    "impact": 1,
+    "name": "Plain Strider",
+    "description": "Born and raised on the plains. Your people have a sacred bond with horses going back before memory."
+}

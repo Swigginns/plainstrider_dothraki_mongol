@@ -1,0 +1,8 @@
+{
+    "replace": false,
+"origins": [
+    "swig:plain_strider",
+    "swig:dothraki",
+    "swig:mongol"
+]
+}
